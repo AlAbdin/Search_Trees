@@ -20,8 +20,8 @@
 template <typename Key, typename Value>
 class bst_redblack{
     private:
-        bool RED_ = true;
-        bool BLACK_ = false;
+        static const bool RED_ = true;
+        static const bool BLACK_ = false;
 
         struct node {
             Key key;             // sorted by key
